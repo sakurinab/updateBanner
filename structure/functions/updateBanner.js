@@ -22,7 +22,7 @@ module.exports = async (bot, guildId) => {
         if(config.userId == "0" || Date.now() > config.update) {
             let files = bot.collection.filter(x => x.type == "user").map(x => x)
             if(files.length > 0) {
-                let first = files.sort((a, b) => b.online > a.online)[0]
+                let first = files.sort((a, b) => b.online - a.online)[0]
                 config.update = parseInt(Date.now()+(ms(bot.config.timer)))
                 config.userId = first.userId
                 for(let i = 0; i < files.length;i++) {
