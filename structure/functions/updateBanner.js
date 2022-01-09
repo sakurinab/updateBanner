@@ -9,7 +9,7 @@ module.exports = async (bot, guildId) => {
         let canvas = createCanvas(960, 540)
         let ctx = canvas.getContext("2d")
 
-        let background = await loadImage("https://cdn.discordapp.com/attachments/870602553920987146/926794024013160498/20211awddwa210_135013.jpg")
+        let background = await loadImage("https://media.discordapp.net/attachments/926753297346494514/929309759411191818/20220108_123224.jpg?width=803&height=452")
         ctx.drawImage(background, 0, 0, 960, 540)
 
         ctx.textAlign = "center"
