@@ -60,4 +60,4 @@ readdir("./structure/", (err, folders) => {
     }
 })
 
-bot.login("OTI0OTM2OTE3NTIxNDA4MDEx.Ycl0oQ.aF1u3RAOesdSpbjp6BbdPC5I-1g")
+bot.login("OTQ4NjQ2ODYxNjI2MDQ4NTEz.GzfJdP._N4rMNHWpYecEgdRnzMTaEXzAi98NVwEYiOdx4")
